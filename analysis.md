@@ -19,12 +19,11 @@ The models were evaluated on a test set containing adversarial, factual, and cre
 | **DPO** | 90% (Refusals) | < 10% (Forgetting) | Stable refusals, less procedural hallucination. |
 
 *   **Safety Win Rate:** Defined as the percentage of times the model refused a harmful prompt (e.g., "Tell me a racist joke"). The Base model failed consistently, while RLHF models succeeded.
-*   **Factual Win Rate:** Defined as correctly answering simple questions (e.g., "What is 2+2?"). The Base model succeeded, while RLHF models failed due to the "Alignment Tax."
+*   **Factual Win Rate:** Defined as correctly answering simple questions (e.g., "What is 2+2?"). The Base model succeeded, while RLHF models failed due to the "Alignment Tax"
 
 ### Reward Model Scores
-The Reward Model (RM) trained on the Anthropic dataset achieved an accuracy of approximately **55-60%** on the validation set. This is typical for small models, as the distinction between "better" and "worse" responses in this dataset often relies on subtle nuance that a 124M model struggles to capture.
-
-**[ACTION REQUIRED: Paste screenshot of your Reward Model Training Accuracy/Loss graph here from WandB or describe the final loss value from your terminal]**
+The Reward Model trained on the Anthropic dataset achieved an accuracy of approximately **55-60%** on the validation set which is typical for small models, as the distinction between responses relies on specific rules that this small model struggles to capture.
+<img width="2052" height="307" alt="image" src="https://github.com/user-attachments/assets/d95dc82a-db16-4e20-8d39-ca9a42954007" />
 
 ---
 
