@@ -1,0 +1,57 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            oxhioa4nxcj1630zrfoh71exr7swmcrj:
+                cpu_count: 10
+                cpu_count_logical: 20
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "313312768000"
+                        used: "272934088704"
+                email: tssachin.venkatesh@gmail.com
+                executable: /home/sachin/anaconda3/envs/iems/bin/python
+                gpu: NVIDIA TITAN V
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Volta
+                      cudaCores: 5120
+                      memoryTotal: "12884901888"
+                      name: NVIDIA TITAN V
+                      uuid: GPU-fbb3b8e7-3d28-0292-9a6c-02937cafde14
+                host: centarsirius
+                memory:
+                    total: "269952008192"
+                os: Linux-6.8.0-88-generic-x86_64-with-glibc2.39
+                program: -m src.reward_model
+                python: CPython 3.13.9
+                root: /home/sachin/Downloads/rlhf_assignment
+                startedAt: "2025-12-06T21:01:52.114897Z"
+                writerId: oxhioa4nxcj1630zrfoh71exr7swmcrj
+        m: []
+        python_version: 3.13.9
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+                - 71
+            "2":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+                - 71
+            "3":
+                - 13
+            "4": 3.13.9
+            "5": 0.23.1
+            "6": 4.57.1
+            "12": 0.23.1
+            "13": linux-x86_64

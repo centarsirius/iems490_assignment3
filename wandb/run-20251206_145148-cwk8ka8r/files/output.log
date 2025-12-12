@@ -1,0 +1,14 @@
+  0%|                                                                                                                                                                                                                                                                                                                                         | 0/50 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/sachin/Downloads/rlhf_assignment/src/reward_model.py", line 63, in <module>
+    trainer.train()
+    ~~~~~~~~~~~~~^^
+  File "/home/sachin/Downloads/rlhf_assignment/src/reward_model.py", line 50, in train
+    loss, acc = self.compute_loss(batch)
+                ~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/sachin/Downloads/rlhf_assignment/src/reward_model.py", line 22, in compute_loss
+    chosen_ids = torch.stack(batch["input_ids_chosen"]).T.to(cfg.device)
+                 ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: stack(): argument 'tensors' (position 1) must be tuple of Tensors, not Tensor

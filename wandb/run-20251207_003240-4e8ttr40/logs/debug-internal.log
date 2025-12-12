@@ -1,0 +1,8 @@
+{"time":"2025-12-07T00:32:40.481804353-06:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-07T00:32:40.793357813-06:00","level":"INFO","msg":"stream: created new stream","id":"4e8ttr40"}
+{"time":"2025-12-07T00:32:40.79349959-06:00","level":"INFO","msg":"handler: started","stream_id":"4e8ttr40"}
+{"time":"2025-12-07T00:32:40.79361682-06:00","level":"INFO","msg":"stream: started","id":"4e8ttr40"}
+{"time":"2025-12-07T00:32:40.793619941-06:00","level":"INFO","msg":"writer: started","stream_id":"4e8ttr40"}
+{"time":"2025-12-07T00:32:40.793626363-06:00","level":"INFO","msg":"sender: started","stream_id":"4e8ttr40"}
+{"time":"2025-12-07T00:32:41.059831317-06:00","level":"WARN","msg":"handleCodeSave: program relative path is empty"}
+{"time":"2025-12-07T00:32:41.05990852-06:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}

@@ -1,0 +1,34 @@
+{
+  "os":  "Linux-6.8.0-88-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.13.9",
+  "startedAt":  "2025-12-06T20:54:08.067910Z",
+  "program":  "-m src.reward_model",
+  "email":  "tssachin.venkatesh@gmail.com",
+  "root":  "/home/sachin/Downloads/rlhf_assignment",
+  "host":  "centarsirius",
+  "executable":  "/home/sachin/anaconda3/envs/iems/bin/python",
+  "cpu_count":  10,
+  "cpu_count_logical":  20,
+  "gpu":  "NVIDIA TITAN V",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "313312768000",
+      "used":  "271847923712"
+    }
+  },
+  "memory":  {
+    "total":  "269952008192"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA TITAN V",
+      "memoryTotal":  "12884901888",
+      "cudaCores":  5120,
+      "architecture":  "Volta",
+      "uuid":  "GPU-fbb3b8e7-3d28-0292-9a6c-02937cafde14"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "1so8fc7ax72kgwi9q6i5t8v4wvfsszya"
+}
